@@ -1,1 +1,3 @@
-temporary site until i set things up properly
+personal site at [itsraineing.xyz](http://itsraineing.xyz)
+
+cc by 4.0

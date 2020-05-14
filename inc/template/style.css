@@ -1,19 +1,19 @@
 body {
     margin: 0;
-    font-family: Georgia;
-    font-size: 18px;
+    font-family: Mono;
+    font-size: 16pt;
     line-height: 32px;
-    background: #3D3034;
-    color: #DEADBE;
+    background: #292023;
+    color: #EDB9CB;
 }
 
 a {
-    color: green;
+    color: #3DADBE;
     text-decoration: none;
     border-bottom: 1px solid transparent;
 }
 a:hover {
-    border-bottom: 1px solid #DEAD00;
+    border-bottom: 1px solid #3DADBE;
 }
 
 .left {
@@ -25,7 +25,7 @@ a:hover {
 
 div#wrap {
     margin: 0 auto;
-    width: 800px;
+    width: 1024px;
 }
 
 div#header {
@@ -33,8 +33,8 @@ div#header {
     width: 100%;
 }
     div#header h1 {
-        font-size: 30px;
-        margin-top: 50px;
+        font-size: 16pt;
+        margin-top: 20pt;
         margin-bottom: 0;
         float: left;
     }
@@ -55,39 +55,38 @@ div#header {
             margin-right: 5px;
         }
             div#header ul li.active a {
-                border-bottom: 1px solid #000;
+                border-bottom: 1px solid #EDB9CB;
             }
 
 div.post {
     float: left;
     width: 100%;
-    margin-bottom: 30px;
 }
     div.post h2 {
-        font-size: 24px;
+        font-size: 20pt;
         margin-bottom: 0;
         font-weight: normal;
+        margin-left: 10pt;
     }
         div.post h2 a {
             text-decoration: none;
         }
     div.post div.content {
-        text-align: justify;
+        text-align: left;
     }
     div.post div.meta {
-        font-size: 12px;
-        font-family: Verdana;
-        text-transform: uppercase;
-        border-top: 1px dotted #DEADBE;
-        padding-top: 0px;
-        margin-top: 13px;
+        font-size: 14pt;
+    }
+    
+    div.post div.meta_small {
+    	font-size: 12pt;
     }
 
 div#footer {
     margin-bottom: 50px;
-    font-size: 16px;
+    font-size: 12pt;
     border-top: 1px dotted #DEADBE;
-    padding-top: 5px;
+    padding-top: 8px;
     margin-top: 13px;
     float: left;
     width: 100%;

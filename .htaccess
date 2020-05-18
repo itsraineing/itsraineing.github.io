@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} ^itsraineing\.xyz$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.itsraineing\.xyz$
+RewriteRule .* https://itsraineing.xyz%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{HTTPS} =on
+RewriteCond %{HTTP_HOST} ^www\.itsraineing\.xyz$
+RewriteRule .* https://itsraineing.xyz%{REQUEST_URL} [R=301,L]
